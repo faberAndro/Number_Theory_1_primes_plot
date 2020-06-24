@@ -3,7 +3,7 @@ import math
 import matplotlib.pyplot as plt
 
 
-def Erathostene_sieve(n):
+def Eratosthenes_sieve(n):
 	t1 = time.time()
 	prime_list = list(range(n+1))
 	prime_list[0], prime_list[1] = 0, 0
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 	# calculates_binary_shift(262139), input()
 	# calculates_binary_shift(1048573), input()
 
-	primes_calculated = Erathostene_sieve(n)
+	primes_calculated = Eratosthenes_sieve(n)
 	print('numero primi: ', len(primes_calculated))
 	if reduction_factor > 1:
 		primes_before_n = [x for i, x in enumerate(primes_calculated) if i % reduction_factor == 0]
