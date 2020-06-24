@@ -93,13 +93,13 @@ if __name__ == '__main__':
 	print('positions computed!')
 
 	if annotations:
-		passo_annotations = n_primes**(1/n_annotations)
+		step_annotations = n_primes**(1/n_annotations)
 		set_annotations = [0]
-		index_annotazione = 1
-		while index_annotazione <= n_primes:
-			set_annotations.append(int(index_annotazione))
-			index_annotazione = index_annotazione * passo_annotations
-			print(index_annotazione)
+		index_annotation = 1
+		while index_annotation <= n_primes:
+			set_annotations.append(int(index_annotation))
+			index_annotation = index_annotation * step_annotations
+			print(index_annotation)
 			time.sleep(0)
 		print('N annotations: ', len(set_annotations))
 		set_annotations = sorted(list(set(set_annotations)))
