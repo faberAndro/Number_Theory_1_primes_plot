@@ -2,8 +2,8 @@
 In order to run, this file requires the matplotlib module to be installed.
 
 The first 23000 prime numbers are visualized as leaves of a binary tree, to check for any repetitive pattern to exist.
-only leaves are displayed, not branches.
-the binary tree starts at the left bottom corner and expands towards NE.
+Only leaves are displayed, not branches.
+The binary tree starts at the left bottom corner and expands towards NE.
 Every red imaginary line represents a bunch of numbers laying between 2^n and 2^(n-1)
 The blue line represents the horizon of infinites.
 For the numbers to be visualized close to the horizon, at least a 2^40 numbers need to be investigated.
